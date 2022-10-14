@@ -54,6 +54,15 @@ void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
 
+/*******************************************************************************
+*
+*Bootloader function prototypes
+*
+********************************************************************************/
+
+void bootloader_uart_reat_data(void);
+void bootloader_jump_to_user_app(void);
+
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
