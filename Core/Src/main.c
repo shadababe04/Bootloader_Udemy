@@ -117,10 +117,7 @@ int main(void)
 //		HAL_UART_Transmit(&huart3,(uint8_t *)somedata3,sizeof(somedata3), HAL_MAX_DELAY);
 		uint32_t current_tick = HAL_GetTick();
 		PRINTMSG_D("Current Tick : %d\r\n",current_tick);
-		while(HAL_GetTick() <= (current_tick +500))
-		{
-			;
-		}
+		while(HAL_GetTick() <= (current_tick +500));
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
